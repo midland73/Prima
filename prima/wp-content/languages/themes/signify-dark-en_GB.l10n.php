@@ -1,0 +1,2 @@
+<?php
+return ['x-generator'=>'GlotPress/4.0.0-beta.3','translation-revision-date'=>'2021-01-06 15:59:41+0000','plural-forms'=>'nplurals=2; plural=n != 1;','project-id-version'=>'Themes - Signify Dark','language'=>'en_GB','messages'=>['Signify Dark'=>'Signify Dark','Select Layout'=>'Select Layout','4 columns'=>'Four columns','3 columns'=>'Three columns','2 columns'=>'Two columns','1 column'=>'One column','https://wenthemes.com/'=>'https://wenthemes.com/','WEN Themes'=>'WEN Themes']];

@@ -1,0 +1,78 @@
+/*!
+Theme Name: Kadence
+Theme URI: https://www.kadencewp.com/kadence-theme/
+Author: Kadence WP
+Author URI: https://www.kadencewp.com/
+Description: Kadence Theme is a lightweight yet full featured WordPress theme for creating beautiful fast loading and accessible websites, easier than ever. It features an easy to use drag and drop header and footer builder to build any type of header in minutes. It features a full library of gorgeous starter templates that are easy to modify with our intelligent global font and color controls. With extensive integration with the most popular 3rd party plugins, you can quickly build impressive ecommerce websites, course websites, business websites, and more.
+Version: 1.2.14
+License: GNU General Public License v3.0 (or later)
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: kadence
+Requires at least: 6.3
+Tested up to: 6.7
+Tags: translation-ready, two-columns, right-sidebar, left-sidebar, footer-widgets, blog, custom-logo, custom-background, custom-menu, rtl-language-support, editor-style, threaded-comments, custom-colors, featured-images, wide-blocks, full-width-template, theme-options, e-commerce
+Requires PHP: 7.4
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share
+what you've learned with others.
+*/
+
+
+.header-navigation[class*="header-navigation-style-underline"] .header-menu-container.primary-menu-container>ul>li>a:after {
+    width: calc(100% - 1.8em);
+}
+
+.main-navigation .primary-menu-container > ul > li.menu-item > a {
+    padding-left: calc(1.8em / 2);
+    padding-right: calc(1.8em / 2);
+    padding-top: 0.01em;
+    padding-bottom: 0.01em;
+    color: var(--global-palette5);
+}
+
+.main-navigation .primary-menu-container > ul > li.menu-item .dropdown-nav-special-toggle {
+    right: calc(1.8em / 2);
+}
+
+.main-navigation .primary-menu-container > ul li.menu-item > a {
+    font-style: normal;
+    font-weight: 600;
+}
+
+.main-navigation .primary-menu-container > ul > li.menu-item > a:hover {
+    color: var(--global-palette1);
+}
+
+.main-navigation .primary-menu-container > ul > li.menu-item.current-menu-item > a {
+    color: var(--global-palette2);
+}
+
+.header-navigation .header-menu-container ul ul.sub-menu, .header-navigation .header-menu-container ul ul.submenu {
+    background: var(--global-palette8);
+    box-shadow: 0px 20px 20px -15px rgba(0,0,0,0.35);
+}
+
+.header-navigation .header-menu-container ul ul li.menu-item, .header-menu-container ul.menu > li.kadence-menu-mega-enabled > ul > li.menu-item > a {
+    border-bottom: 1px solid var(--global-palette8);
+}
+
+.header-navigation .header-menu-container ul ul li.menu-item > a {
+    width: 200px;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    color: var(--global-palette5);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.header-navigation .header-menu-container ul ul li.menu-item > a:hover {
+    color: var(--global-palette1);
+    background: var(--global-palette9);
+}
+
+.header-navigation .header-menu-container ul ul li.menu-item.current-menu-item > a {
+    color: var(--global-palette2);
+    background: var(--global-palette8);
+}
